@@ -1,0 +1,10 @@
+/* jshint node:true */
+'use strict';
+
+function existy (x) {
+  return x != null;
+}
+
+module.exports = {
+  existy: existy
+};
