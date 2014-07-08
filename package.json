@@ -1,6 +1,6 @@
 {
   "name": "hooligan",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A simple util lib for misc functional programming functions.",
   "main": "bin/hooligan.js",
   "bin": {
