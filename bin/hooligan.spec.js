@@ -1,4 +1,4 @@
-var hool = require('../bin/hooligan');
+var hool = require('./hooligan');
 
 describe('### Testing Hooligan', function() {
   it("should respond with false when applied to null.", function(done) {

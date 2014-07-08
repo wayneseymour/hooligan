@@ -1,22 +1,13 @@
 {
   "name": "hooligan",
-  "version": "0.0.0",
-  "description": "hooligan ========",
-  "main": "index.js",
+  "version": "0.0.1",
+  "description": "A simple util lib for misc functional programming functions.",
+  "main": "bin/hooligan.js",
   "bin": {
     "hooligan": "hooligan.js"
   },
-  "directories": {
-    "test": "test"
-  },
-  "dependencies": {
-    "jasmine-node": "^1.14.3"
-  },
-  "devDependencies": {
-    "jasmine-node": "^1.14.3"
-  },
   "scripts": {
-    "test": "jasmine-node test"
+    "test": "./node_modules/.bin/mjnw \"bin/*.spec.js\""
   },
   "repository": {
     "type": "git",
@@ -33,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/wayneseymour/hooligan/issues"
   },
-  "homepage": "https://github.com/wayneseymour/hooligan"
+  "homepage": "https://github.com/wayneseymour/hooligan",
+  "devDependencies": {
+    "minijasminenodewrap": "0.0.5"
+  }
 }
